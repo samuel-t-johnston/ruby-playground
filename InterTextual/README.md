@@ -1,5 +1,5 @@
 #InterTextual
-InterTextual is a tool for organizing small pieces of text based on their relationships to each other, in the form of a graph.
+InterTextual is a tool for organizing small pieces of text based on their relationships to each other, in the form of a graph. *It is still in very early development, and doesn't really work yet.*
 
 ##Nodes
 There are two types of nodes in the graph:
@@ -16,3 +16,8 @@ There are also two types of edges in the graph:
 ##Additional concepts
  - **Synonyms** - These are alternative names for a Topic, and they redirect to that topic. This allows a Topic to have a single, cannonical name, but still handle a variety of references to itself. For example, the Topic "intertextual" might have a synonym "inter-textual".
  - **Tag weight** - Tags form a relationship between a Snippet and a Topic. However, some relationships are stronger than others. Tag weight is a numeric value dictating the strength of the relationship between Snippet and Topic.
+
+#Plugins
+The UI and data store for InterTextual are intended to be pluggable - you'll be able to specify the type of UI or data store in the configuration file.
+
+The initial UI will be console/text-based. The initial data store will be file-based.
