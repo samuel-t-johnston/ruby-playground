@@ -1,0 +1,7 @@
+#This setting determines the interface InterTexual uses to communicate with the user.
+#  console: A text-based console UI.
+ui: console
+
+#This setting determines the way InterTextual loads and saves data.
+#  file: Data is stored in files under the ./data directory.
+storage: file
